@@ -31,9 +31,9 @@
     <!-- Header-starts-->
     <header class="bg-[url('/eduford_img/background.jpg')] h-[50vh] bg-center bg-cover z-[-10]">
         <nav class="bg-transparent md:w-[85%] md:ml-20 absolute top-0 left-0 w-full z-50">
-            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6 >
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
                 <a href=" #" class="flex items-center">
-                <img src="eduford_img/logo.png" class="h-10 mt-6" alt="Logo" />
+                    <img src="eduford_img/logo.png" class="h-10 mt-6" alt="Logo" />
                 </a>
                 <button data-collapse-toggle="navbar-default" type="button"
                     class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
@@ -89,6 +89,89 @@
         </section>
     </section>
     <!-- hero-section-ends -->
+
+    <!-- map-starts -->
+    <section id="map" class="w-[90%] mt-20 mb-20 mx-auto">
+        <div class="w-full flex justify-center">
+            <iframe class="w-full md:w-[80%] h-[300px] md:h-[400px] lg:h-[500px] rounded-lg"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.687034842543!2d-1.257092823658716!3d51.75704619243558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a9ef8c485b%3A0xd2ff1883a001afed!2sUniversity%20of%20Oxford!5e0!3m2!1sen!2s!4v1731861674467!5m2!1sen!2s"
+                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+    <!-- map-ends -->
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="w-[90%] mx-auto mt-20 mb-20 p-6"> 
+        <div class="grid grid-cols-1 lg:grid-cols-[30%,70%] gap-10">
+            <!-- Information Section (30%) -->
+            <div class="space-y-6 gap-10 lg:mt-20">
+                <!-- Address -->
+                <div class="flex gap-4 p-5">
+                    <i class="ri-home-4-fill text-red-700 text-2xl"></i>
+                    <div class="text-gray-700">
+                        <p>Xyz Road, ABC Building</p>
+                        <p>Karachi, Pakistan</p>
+                    </div>
+                </div>
+                <!-- Phone -->
+                <div class="flex gap-4 p-5">
+                    <i class="ri-phone-fill text-red-700 text-2xl"></i>
+                    <div class="text-gray-700">
+                        <h3 class="font-semibold">Phone Number</h3>
+                        <p>+92-123-456-7890</p>
+                    </div>
+                </div>
+                <!-- Email -->
+                <div class="flex gap-4 p-5">
+                    <i class="ri-mail-fill text-red-700 text-2xl"></i>
+                    <div class="text-gray-700">
+                        <h3 class="font-semibold">Email Address</h3>
+                        <p>info@company.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form Section (70%) -->
+            <form action="#" method="POST" class="space-y-6 p-6 rounded-lg">
+                <!-- Name Input -->
+                <div>
+                    <label for="name" class="block text-gray-700 font-semibold mb-2">Name:</label>
+                    <input type="text" id="name" name="name"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        placeholder="Enter your name" required>
+                </div>
+                <!-- Email Input -->
+                <div>
+                    <label for="email" class="block text-gray-700 font-semibold mb-2">Email:</label>
+                    <input type="email" id="email" name="email"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        placeholder="Enter your email" required>
+                </div>
+                <!-- Subject Input -->
+                <div>
+                    <label for="subject" class="block text-gray-700 font-semibold mb-2">Subject:</label>
+                    <input type="text" id="subject" name="subject"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        placeholder="Enter subject" required>
+                </div>
+                <!-- Message Textarea -->
+                <div>
+                    <label for="message" class="block text-gray-700 font-semibold mb-2">Message:</label>
+                    <textarea id="message" name="message" rows="5"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        placeholder="Enter your message" required></textarea>
+                </div>
+                <!-- Submit Button -->
+                <div class="text-left">
+                    <button type="submit"
+                        class="bg-white hover:bg-[#f44336] border border-[#f44336] text-[#f44336] hover:text-white font-normal py-2 px-6 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-400">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
 
     <!-- footer-section-starts -->
     <footer class="bg-gray-50 text-black py-6 mt-20">

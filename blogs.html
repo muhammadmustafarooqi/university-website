@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Page</title>
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="eduford_img/images.jpeg">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <!-- Include Flowbite CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            width: 100%;
+            overflow-x: hidden;
+        }
+        @media (max-width: 768px) {
+    #right-content {
+        width: 100%;               /* Adjust width to full screen */
+        margin-left: 0;            /* Remove margin on small screens */
+        padding: 16px;             /* Add padding for better spacing */
+    }
+
+    .first-heading {
+        gap: 90px;                 /* Adjust gaps for smaller screens */
+    }
+}
+
+    </style>
+
+    <!-- Header-starts-->
+    <header class="bg-[url('/eduford_img/background.jpg')] h-[50vh] bg-center bg-cover z-[-10]">
+        <nav class="bg-transparent md:w-[85%] md:ml-20 absolute top-0 left-0 w-full z-50">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6 ">
+                <a href=" #" class="flex items-center">
+                <img src="eduford_img/logo.png" class="h-12 mt-6" alt="Logo" id="nav-logo"/>
+                </a>
+                <button data-collapse-toggle="navbar-default" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                    <ul
+                        class="font-medium text-center gap-5 md:gap-0 bg-gray-600 md:bg-transparent flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8">
+                        <li class="relative group">
+                            <a href="./index.html" class="text-white">HOME</a>
+                            <span
+                                class="absolute bottom-0 left-0 w-0 h-[2px] bg-red-500 transition-all duration-500 group-hover:w-full"></span>
+                        </li>
+                        <li class="relative group">
+                            <a href="./about.html" class="text-white">ABOUT</a>
+                            <span
+                                class="absolute bottom-0 left-0 w-0 h-[2px] bg-red-500 transition-all duration-500 group-hover:w-full"></span>
+                        </li>
+                        <li class="relative group">
+                            <a href="./courses.html" class="text-white">COURSE</a>
+                            <span
+                                class="absolute bottom-0 left-0 w-0 h-[2px] bg-red-500 transition-all duration-500 group-hover:w-full"></span>
+                        </li>
+                        <li class="relative group">
+                            <a href="./blogs.html" class="text-white">BLOG</a>
+                            <span
+                                class="absolute bottom-0 left-0 w-0 h-[2px] bg-red-500 transition-all duration-500 group-hover:w-full"></span>
+                        </li>
+                        <li class="relative group">
+                            <a href="./contact.html" class="text-white">CONTACT</a>
+                            <span
+                                class="absolute bottom-0 left-0 w-0 h-[2px] bg-red-500 transition-all duration-500 group-hover:w-full"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header-ends -->
+    <!-- hero-section-starts -->
+    <section id="hero" class="absolute top-[30%] lg:top-[15%] md:top-[30%] left-[10%] w-[80%] ">
+        <section class="bg-transparent">
+            <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+                <h1 class="mb-6 text-xl font-bold tracking-tight leading-none text-gray-100 md:text-2xl lg:text-3xl">
+                    Our Certificate & Online Program For 2024</h1>
+            </div>
+        </section>
+    </section>
+    <!-- hero-section-ends -->
+
+    <!-- Certification Section Starts -->
+    <section id="Certification" class="flex items-center w-[80%] mx-auto py-10">
+        <div id="main-Certification" class=" grid grid-cols-1 lg:grid-cols-2 w-full gap-8">
+            <!-- Left Side (Image and Text) -->
+            <div id="content-Certification" class="relative lg:w-[600px]">
+                <img src="eduford_img/certificate.jpg" alt="Certificate Image" id="Certificate-Image" class="w-full h-auto object-cover rounded-lg " />
+                <h3 class="text-2xl mt-5 font-bold text-gray-700">Our Certificate and Online Programs</h3>
+                <p class="text-sm mt-4 text-gray-500 leading-relaxed">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita libero eos earum est debitis
+                    reprehenderit fugit molestiae amet qui! Maxime nihil distinctio aliquid optio, hic quasi
+                    exercitationem
+                    sapiente quae, porro laborum beatae! Ea distinctio eum quas minima numquam error maxime.
+                </p>
+                <p class="text-sm mt-4 text-gray-500 leading-relaxed">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita libero eos earum est debitis
+                    reprehenderit fugit molestiae amet qui! Maxime nihil distinctio aliquid optio, hic quasi
+                    exercitationem
+                    sapiente quae, porro laborum beatae! Ea distinctio eum quas minima numquam error maxime.
+                </p>
+                <p class="text-sm mt-4 text-gray-500 leading-relaxed">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita libero eos earum est debitis
+                    reprehenderit fugit molestiae amet qui! Maxime nihil distinctio aliquid optio, hic quasi
+                    exercitationem
+                    sapiente quae, porro laborum beatae! Ea distinctio eum quas minima numquam error maxime.
+                </p>
+                <p class="text-sm mt-4 text-gray-500 leading-relaxed">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita libero eos earum est debitis
+                    reprehenderit fugit molestiae amet qui! Maxime nihil distinctio aliquid optio, hic quasi
+                    exercitationem
+                    sapiente quae, porro laborum beatae! Ea distinctio eum quas minima numquam error maxime.
+                </p>
+            </div>
+            <!-- Right Side (Background and Content) -->
+            <div id="right-content" class="flex flex-col p-8 text-gray-700 w-[300px] lg:ml-40 bg-white">
+                <h3 class="text-lg font-semibold bg-[#f44336] rounded-sm text-center text-white mb-6 py-2 hover:shadow-lg cursor-pointer">Post Categories</h3>
+                <div class="first-heading flex gap-[90px]">
+                    <p class="text-sm mb-4 ">Business Analytics</p>
+                    <p class="">21</p>
+                </div>
+                <div class="flex gap-[125px]">
+                    <p class="text-sm mb-4 ">Data Sciencs</p>
+                    <p class="">28</p>
+                </div>
+                <div class="flex gap-[93px]">
+                    <p class="text-sm mb-4 ">Machine Learning</p>
+                    <p class="">15</p>
+                </div>
+                <div class="flex gap-[95px]">
+                    <p class="text-[13px] mb-4 ">Computer Science</p>
+                    <p class="">34</p>
+                </div>
+                <div class="flex gap-[155px]">
+                    <p class="text-sm mb-4 ">AutoCAD</p>
+                    <p class="">42</p>
+                </div>
+                <div class="flex gap-[150px]">
+                    <p class="text-sm mb-4 ">Jurnalism</p>
+                    <p class="">22</p>
+                </div>
+                <div class="flex gap-[140px]">
+                    <p class="text-sm mb-4 ">Commerce</p>
+                    <p class="">13</p>
+                </div>
+                <a href="#programs"
+                    class="mt-6 inline-block bg-gray-500 text-center text-white py-2 px-4 rounded hover:bg-[#f44336] transition">
+                    Explore Our Programs
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Certification Section Ends -->
+
+     <!-- comment-form-starts -->
+     <section id="blog" class="w-[60%]">
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md border border-gray-200 rounded-lg w-[500px]">
+            <h2 class="mb-4 text-xl tracking-tight font-semibold text-left text-gray-900">Leave a comment</h2>
+            <form action="#" id="comment-form" class="space-y-8">
+                <div class="input-1">
+                    <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your Name</label>
+                    <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Enter Your Name" required>
+                </div>
+                <div>
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+                    <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required>
+                </div>
+                <div class="sm:col-span-2">
+                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+                    <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+                </div>
+                <button id="submit-button" type="submit" class="py-3 px-5 text-sm font-medium text-center text-[#f44336] rounded-lg bg-white sm:w-fit hover:bg-[#f44336] hover:text-white focus:ring-4 focus:outline-none focus:ring-primary-300 border border-[#f44336]">Post Comment</button>
+            </form>
+        </div>
+      </section>
+     <!-- comment-form-ends -->
+
+<!-- footer-section-starts -->
+<footer id="footer" class="bg-gray-50 text-black pt-6 pb-10 mt-20">
+    <div class="container flex flex-col text-center px-4 mx-auto md:w-[1000px]">
+        <!-- Heading -->
+        <div class="heading-footer font-bold text-xl mb-6">
+            <h1>About Us</h1>
+        </div>
+        <!-- Paragraph -->
+        <div class="paragraph font-light text-sm md:text-base">
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel harum minus, pariatur dolorum
+                suscipit,
+                nulla tempore libero ab nihil eum eius natus ut, autem eos corporis dolores inventore. Sapiente,
+                beatae!
+            </p>
+        </div>
+        <!-- Social Icons -->
+        <div class="social-links mt-6 flex justify-center space-x-4">
+            <a href="#" class="hover:text-[#f44336] transition-all"><i class="ri-facebook-fill text-xl"></i></a>
+            <a href="#" class="hover:text-[#f44336] transition-all"><i class="ri-instagram-fill text-xl"></i></a>
+            <a href="#" class="hover:text-[#f44336] transition-all"><i class="ri-twitter-fill text-xl"></i></a>
+            <a href="#" class="hover:text-[#f44336] transition-all"><i class="ri-linkedin-fill text-xl"></i></a>
+        </div>
+    </div>
+    <!-- Footer Note -->
+    <div class="Footer-Note text-center mt-4 px-4">
+        <p class="text-xs md:text-sm">&copy; 2024 Created by Muhammad Mustafa Hussain. All rights reserved.</p>
+    </div>
+</footer>
+<!-- footer-section-ends -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="main.js"></script>
+<!-- include Flowbite JavaScript  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
